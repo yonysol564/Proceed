@@ -1,0 +1,461 @@
+/*csss*/
+/*========================================================================================================================		
+
+			============================	     	M  E  D  I  A      Q  U  E  R  I  E  S    	==================================	
+
+==========================================================================================================================*/
+
+@media(max-width:1200px) {
+	/*===================================================================================   
+
+	      =================       C U S T O M E R S    =================== 
+
+	====================================================================================*/
+
+		.customers_div {
+		    max-width: 600px;
+		}
+
+		.customer_logo {
+		    margin: 10px 10px;
+		}
+		.customer_logo img{
+		    max-width: 50px;
+		    height: auto;
+		    display: block;
+		}
+
+		.customers_head , .customers_list{
+		    color: #7C8586;
+		}
+
+		.text_holder{
+			font-size: 30px;
+		}
+}
+
+
+@media(max-width:991px) {
+  /*===================================================================================		
+
+			==================	     	 N E W S  E V E N T S       	====================	
+
+	====================================================================================*/
+  .customers_div{
+  	display: none;
+  }
+
+	.news_col-box{
+	  width: 100%;
+	}
+
+	.text_holder{
+			font-size: 20px;
+		}
+
+
+	/*===================================================================================		
+
+				=================	           	 C O N T A C T           	===================	
+
+	====================================================================================*/
+
+	.contact_form_div{
+		border-right: 0px solid #ccc;
+		padding-right: 15px;
+	}
+
+	input.form-control{
+		height: 35px;
+		background-size: 100% 35px;
+	}
+
+	.send_btn{
+		background-size: 100% 35px;
+		height: 35px;
+	}
+
+}
+
+@media(max-width:767px) {
+    .navbar-nav > li.phone_number{
+        display:inline-block;
+    }
+	/*===================================================================================		
+
+				=================	     	 H E A D E R /  NAVEBAR      	===================	
+
+	====================================================================================*/
+
+.top_navbar{
+	    height: 50px;
+    padding-top: 0px;
+}
+	.navbar-nav{
+		 margin: 0px 0px !important;
+	}
+
+	.top_navbar > ul.navbar-left-mobile {
+		padding-top: 0;
+		display: none;
+		float: left;
+	}
+
+	.navbar-header > ul.navbar-left > li.li_mobile_left{
+		padding-top: 7px;
+		float: left;
+	}
+
+	.top_navbar > ul > li.li_lang{
+		margin-top: 7px !important;
+		padding-right: 7px;
+    padding-left: 7px;
+	}
+
+	.a_fa{
+		padding: 5px 2px !important;
+	}
+
+	.my_fa {
+    padding: 5px;
+    font-size: 15px;
+	}
+
+	.top_navbar > ul.navbar-left > li.li_lang a,
+	.top_navbar > ul.navbar-left > li.li_lang:before,
+	.top_navbar > ul.navbar-left > li.li_lang:after{
+		display: none !important;
+	}
+
+	.top_navbar > ul.navbar-left > li > form.form_search{
+		display: none !important;
+	}
+
+	.nav>li>a>img {
+		float: right !important;
+	}
+
+	.navbar-default .navbar-toggle {
+	   border: none;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+			background: none;
+	}
+
+	.sub-menu{
+		display: block;
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+    top: 0;
+    left: auto;
+    float: none;
+    margin-left: 0;
+    z-index: 1;
+    background: none;
+	}
+
+	/*          bottom navbar        */
+
+	#nav_bottom{
+		 min-height: 32px;
+	}
+
+	#nav_bottom .nav_bottom_container ,
+	#nav_bottom .nav_bottom_container .navbar-header {
+		height: 40px;
+	}
+
+	 #nav_bottom .navbar-header > ul.social_mobile {
+  	display: block;
+  }
+
+  #nav_bottom .navbar-header > ul.social_mobile li.active {
+ 		display: none;
+  }
+
+	.navbar-default .navbar-collapse{
+		 border: none;
+	}
+
+	#nav_bottom .collapsing{
+	background-color: #63CDF1;
+		position: absolute;
+    z-index: 99999;
+	}
+
+	#nav_bottom .in{
+	background-color: #63CDF1;
+	position: absolute;
+   z-index: 99999;
+	}
+
+	
+	#bottom_navbar > ul > li{
+		margin-left: 0px;
+		padding: 0; 
+		height: 100%;
+		border-bottom: 0;
+	}
+	#bottom_navbar > ul > li:first-child {
+
+	    margin-left: 0;
+	}
+
+	#bottom_navbar > ul > li:after{
+		/*border-bottom: 1px solid #fff;*/
+	}
+
+	.sub-menu{
+    	padding: 0px 0px;
+	} 
+
+	.sub-menu > li{
+		/*border-top: 1px solid #fff;*/
+	}
+
+	.sub-menu > li > a {
+	  font-size: 14px;
+	}
+
+	#bottom_navbar > ul > li:last-child{
+    border-bottom: 0px solid #fff;
+	}
+
+	#bottom_navbar > ul > li > a{
+		 color: #323232; 
+	}
+	
+	#bottom_navbar > ul > li > a:after{
+		color: #323232; 
+		height: 1px;
+		background: rgba(107,187,216,1);
+		background: -moz-linear-gradient(left, rgba(107,187,216,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(107,187,216,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(107,187,216,1)), color-stop(30%, rgba(255,255,255,1)), color-stop(69%, rgba(255,255,255,1)), color-stop(100%, rgba(107,187,216,1)));
+		background: -webkit-linear-gradient(left, rgba(107,187,216,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(107,187,216,1) 100%);
+		background: -o-linear-gradient(left, rgba(107,187,216,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(107,187,216,1) 100%);
+		background: -ms-linear-gradient(left, rgba(107,187,216,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(107,187,216,1) 100%);
+		background: linear-gradient(to right, rgba(107,187,216,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 69%, rgba(107,187,216,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bbbd8', endColorstr='#6bbbd8', GradientType=1 );
+	}
+
+
+	#bottom_navbar > ul > li:first-child > a{
+		 padding-left: 10px; 
+	}
+
+	#bottom_navbar > ul > li:last-child > a{
+		     padding-left: 10px; 
+	}
+	#bottom_navbar > ul li:hover > .sub-menu{
+		opacity: 1;
+	}
+	#bottom_navbar > ul > li.current-menu-item > a:last-child, 
+	#bottom_navbar > ul > li:hover > a:last-child{
+		/*background-color: #323232;*/
+		/*color: #BFBFBF;*/
+		border-bottom: 0px solid #fff;
+	}
+
+	#bottom_navbar > ul > li:hover:before,
+	#bottom_navbar > ul > li:hover:after,
+	#bottom_navbar > ul > li.current-menu-item:after,
+	#bottom_navbar > ul > li.current-menu-item:before{
+		/*display: none;*/
+	}
+
+
+	#nav_bottom .navbar-header > ul.social_mobile > li.li_lang{
+	  height: 40px;
+	  padding: 10px 15px;
+	  margin-left: -9px;
+	  margin-right: 5px;
+	}
+
+	#nav_bottom .navbar-header > ul.social_mobile > li.li_lang > a.lang{
+		height: 40px;
+		padding: 10px; 
+		padding-bottom: 11px;
+		background-color:  #D2DBDD;
+		color: #FF141F;
+	}
+
+
+	#nav_bottom .navbar-header > ul.social_mobile li.li_lang:before {
+ 		content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 48px;
+    border-style: solid;
+    border-width: 0 16px 40px 0;
+    border-color: transparent #D2DBDD transparent transparent;
+  }
+
+  #nav_bottom .navbar-header > ul.social_mobile li.li_lang:after {
+  	content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 133px;
+    border-style: solid;
+    border-width: 40px 0  0 15px ;
+    border-color: transparent transparent transparent #D2DBDD ;
+  }
+
+	.navbar-default .navbar-toggle{
+		background: #63CDF1;
+    float: left;
+    border-radius: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 13px 10px;
+	}
+
+	.navbar-default .navbar-toggle:after{
+		content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: -15px;
+    border-style: solid;
+    border-width: 40px 0px 0 15px;
+    border-color: transparent transparent transparent #63CDF1;
+    z-index: 99999;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background: #63CDF1;
+	}
+
+/*	#bottom_navbar > ul > li:hover:before, 
+	#bottom_navbar > ul > li.current-menu-item:before,
+	#bottom_navbar > ul > li:hover:after,
+  #bottom_navbar > ul > li.current-menu-item:after{
+		 border-color: transparent transparent transparent 
+	}*/
+
+	/*===================================================================================   
+
+	      =================         S I D E B A R  (N E W S)      =================== 
+
+	====================================================================================*/
+
+	.sidebar_row{
+	      margin-top: 30px;
+	}
+
+	.sidebar_col{
+		    border-top: 1px solid #CCC;
+	      padding-top: 20px;
+	}
+
+
+	/*===================================================================================		
+
+			================	    	 H O M E  P A G E      	================	
+
+	====================================================================================*/
+	
+	.home_box_col {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+	.main_div_box{
+		padding-bottom: 20px;
+	}
+	
+	.main_div_box:nth-child(-n+2){
+		/*border-top: 1px solid #ccc;*/
+		padding-top: 40px;
+	}
+	
+
+	.home_right_col{
+ 		border:none;
+	  height: auto;
+	}
+    
+	.home_right_row{
+	  border-bottom: 0px solid #ccc;
+	  border-right: 0px solid #ccc;
+	  padding-bottom: 20px;
+	  display: none;
+	}
+
+	.inner_div_box{
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.inner_div_box_title{
+	  font-size: 14px;
+	}		
+
+	.info_bottom{
+		border-top: 1px solid #CCC;
+	}
+
+	.info_bottom .info_div {
+    width: 100%;
+	}
+
+	.all_text{
+		display: none;
+	}
+
+	.gndborder{
+		display: none;
+	}
+
+	/*===================================================================================		
+
+				=================	           	 C O N T A C T           	===================	
+
+	====================================================================================*/
+
+
+
+
+	/*===================================================================================		
+
+			==================	     	 N E W S  E V E N T S       	====================	
+
+	====================================================================================*/
+
+
+	.news_col-box{
+	  width: 100%;
+	}
+
+}
+
+@media(max-width: 360px) {
+
+	.my_fa {
+    background-color: red;
+    padding: 5px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50%;
+	}
+
+	.navbar-header > ul.navbar-left > li.li_mobile_left {
+		padding-top: 9px;
+	}
+
+}
+
+
+
+
